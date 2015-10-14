@@ -3,6 +3,26 @@
         {
             "id": "2mS6TbCRG5h",
             "type": "connectivity"
+        },
+        {
+            "id": "2w6BUdxWGUY",
+            "name": "loadavg5",
+            "type": "host",
+            "metric": "loadavg5",
+            "operator": ">",
+            "warning": 5,
+            "critical": 10,
+            "duration": 3
+        },
+        {
+            "id": "2w6BWT4VSE5",
+            "name": "CPU %",
+            "type": "host",
+            "metric": "cpu%",
+            "operator": ">",
+            "warning": 95,
+            "critical": 99,
+            "duration": 3
         }
     ]
 }
