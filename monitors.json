@@ -40,8 +40,8 @@
             "type": "host",
             "metric": "swap%",
             "operator": ">",
-            "warning": 90,
-            "critical": 95,
+            "warning": 95,
+            "critical": 99,
             "duration": 3
         }
     ]
