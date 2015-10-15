@@ -43,6 +43,16 @@
             "warning": 90,
             "critical": 95,
             "duration": 3
+        },
+        {
+            "id": "2w9uok3LHKw",
+            "name": "Swap %",
+            "type": "host",
+            "metric": "swap%",
+            "operator": ">",
+            "warning": 95,
+            "critical": 99,
+            "duration": 3
         }
     ]
 }
